@@ -21,8 +21,9 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Streamlit
-.streamlit/
+# Streamlit (ignore secrets, keep config)
+.streamlit/secrets.toml
+
 
 # Exports
 exports/
